@@ -5,7 +5,6 @@ const myHeaders = new Headers({
   'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NGMwYWFkMmUyNTRiM2E0ZmVkMzg4NGMiLCJpYXQiOjE2OTAzNTgxNTV9.xwBaZh3Jj9CIdF69-oodGPrBWlM9MvCker_ZQr4-lb0'
 });
 const baseUrl = 'https://task-app-api-3jqj.onrender.com'
-const localUrl = 'http://localhost:3001'
 export const Login=async(username:any,password:any)=>{
   let body={
     email:username,

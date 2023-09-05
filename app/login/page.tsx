@@ -38,6 +38,7 @@ export default function Login() {
     signIn('google',{callbackUrl:HOME_URL})
   }
   const  handleGithubSignIn=()=>{
+    console.log('home url',HOME_URL)
     signIn('github',{callbackUrl:HOME_URL})
   }
   return <Layout >

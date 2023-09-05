@@ -9,7 +9,8 @@ const handler=NextAuth({
   providers: [
     GithubProvider({
       clientId: process.env.GITHUB_ID as string,
-      clientSecret: process.env.GITHUB_SECRET as string
+      clientSecret: process.env.GITHUB_SECRET as string,
+      
     }),
     GoogleProvider({
         clientId: process.env.GOOGLE_ID as string,
