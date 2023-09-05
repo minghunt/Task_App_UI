@@ -11,7 +11,7 @@ export default function Home() {
   let { data: session } = useSession({
     required: true,
     onUnauthenticated() {
-      redirect('/login')
+      redirect('https://task-app-ui-e6i0.onrender.com/login')
     },
   })
  
