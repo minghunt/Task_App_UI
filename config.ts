@@ -1,3 +1,2 @@
-let HOME_URL='http://localhost:3000'
-let HOME_URLs='http://localhost:3000'
+let HOME_URL='https://task-app-ui-e6i0.onrender.com'
 export {HOME_URL}
