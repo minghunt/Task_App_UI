@@ -56,8 +56,8 @@ const handler=NextAuth({
       session.user.token=res.token}
       return session
     },
-    async signIn({user,profile}){
-      if (user.token)
+    async signIn({user,profile}:any){
+      if (user?.token)
         return true
       let newUser={
         username:profile?.name,

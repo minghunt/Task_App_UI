@@ -44,7 +44,7 @@ function User({ session, handdleSignOut,username,email }: any) {
   </div>
   <div className="justify-end flex-none text-white">
     <div className="dropdown dropdown-end " >
-      <label tabindex="0" className="btn btn-ghost btn-circle avatar ">
+      <label tabIndex={0} className="btn btn-ghost btn-circle avatar ">
         <div className="w-10 rounded-full">
           <img src={session?.user.image} />
         </div>
