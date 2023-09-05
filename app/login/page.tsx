@@ -11,9 +11,7 @@ import { useFormik } from 'formik';
 import login_validate from '@/lib/validate';
 import { useRouter } from 'next/navigation';
 import { HOME_URL } from '@/config';
-export const metadata: Metadata = {
-  title: 'Login',
-}
+
 export default function Login() {
   const [show, setShow] = useState(false)
   const router = useRouter()

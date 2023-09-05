@@ -11,9 +11,7 @@ import { useRouter } from 'next/navigation';
 import { HOME_URL } from '@/config';
 
 import { registerValidate } from '@/lib/validate';
-export const metadata: Metadata = {
-  title: 'Login',
-}
+
 export default function Register() {
     const [show, setShow] = useState({ password: false, cpassword: false })
     const router = useRouter()
