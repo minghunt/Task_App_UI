@@ -3,7 +3,7 @@ import GithubProvider from "next-auth/providers/github"
 import GoogleProvider from "next-auth/providers/google";
 import CredentialsProvider from "next-auth/providers/credentials";
 import { Login, Register_api } from "@/api";
-const handler=NextAuth({site: process.env.NEXTAUTH_URL as string,
+const handler=NextAuth({
   // Configure one or more authentication providers
 
   providers: [
